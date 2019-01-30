@@ -1,0 +1,12 @@
+{
+  "name": "restify-request-cache",
+  "version": "1.0.0",
+  "description": "Caching middleware for restify to cache request results using memory, redis or memcache.",
+  "main": "index.js",
+  "repository": "https://github.com/jessespenkelink/restify-request-cache",
+  "author": "Jesse Spenkelink",
+  "license": "MIT",
+  "dependencies": {
+    "restify": "^7.6.0"
+  }
+}
