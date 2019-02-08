@@ -1,0 +1,14 @@
+{
+  "name": "example",
+  "version": "1.0.0",
+  "description": "Example for restify-request-cache",
+  "main": "index.js",
+  "author": "Jesse Spenkelink",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "restify": "^7.6.0"
+  }
+}
