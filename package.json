@@ -8,13 +8,17 @@
   "license": "MIT",
   "scripts": {
     "test": "jasmine",
-    "dev": "nodemon example"
+    "dev": "nodemon example",
+    "babel": "babel example/index.js -o lib/index.js --presets=es2016"
   },
   "dependencies": {
     "memcached": "^2.2.2",
     "restify": "^7.6.0"
   },
   "devDependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.2.2",
+    "babel-preset-es2016": "^6.24.1",
     "eslint": "^5.12.1",
     "jasmine": "^3.3.1"
   }
