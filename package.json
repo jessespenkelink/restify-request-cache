@@ -1,7 +1,7 @@
 {
   "name": "restify-request-cache",
   "version": "1.0.0",
-  "description": "Caching wrapper for restify to cache request results using memory, redis or memcache.",
+  "description": "Wrapper function for a restify route handler, to cache the request results using memcache.",
   "main": "index.js",
   "repository": "https://github.com/jessespenkelink/restify-request-cache",
   "author": "Jesse Spenkelink",

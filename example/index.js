@@ -3,7 +3,7 @@ const restify = require('restify');
 const {
 	Memcached,
 	restifyRequestCache,
-} = require('../src');
+} = require('../lib');
 
 const server = restify.createServer();
 const memcached = new Memcached('172.17.0.2:11211', {});
