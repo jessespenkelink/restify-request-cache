@@ -7,8 +7,8 @@
   "author": "Jesse Spenkelink",
   "license": "MIT",
   "scripts": {
-    "start": "nodemon example",
-    "build": "node_modules/babel-cli/bin/babel.js src --out-dir lib"
+    "build": "node_modules/babel-cli/bin/babel.js src --out-dir lib",
+    "prepublish": "node_modules/babel-cli/bin/babel.js src --out-dir lib"
   },
   "babel": {
     "presets": [
@@ -16,8 +16,7 @@
     ]
   },
   "dependencies": {
-    "memcached": "^2.2.2",
-    "restify": "^7.6.0"
+    "memcached": "^2.2.2"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
