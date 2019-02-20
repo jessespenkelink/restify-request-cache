@@ -7,15 +7,22 @@
   "author": "Jesse Spenkelink",
   "license": "MIT",
   "scripts": {
-    "test": "jasmine",
-    "dev": "nodemon example",
-    "babel": "babel example/index.js -o lib/index.js --presets=es2016"
+    "start": "nodemon example",
+    "build": "node_modules/babel-cli/bin/babel.js src --out-dir lib"
+  },
+  "babel": {
+    "presets": [
+      "stage-3"
+    ]
   },
   "dependencies": {
     "memcached": "^2.2.2",
     "restify": "^7.6.0"
   },
   "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-preset-stage-3": "^6.24.1",
     "eslint": "^5.12.1"
   }
 }
