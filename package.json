@@ -6,6 +6,12 @@
   "repository": "https://github.com/jessespenkelink/restify-request-cache",
   "author": "Jesse Spenkelink",
   "license": "MIT",
+  "keywords": [
+    "restify",
+    "memcached",
+    "cache",
+    "request"
+  ],
   "scripts": {
     "build": "node_modules/babel-cli/bin/babel.js src --out-dir lib",
     "prepublish": "node_modules/babel-cli/bin/babel.js src --out-dir lib"
